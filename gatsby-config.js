@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Add Title',
-    description: 'Add description',
-    author: 'Add author',
+    title: 'ahelm.github.io',
+    description: 'Personal webpage of Anton Helm',
+    author: 'Anton Helm',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -18,13 +18,13 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Site Name',
-        short_name: 'name',
+        name: 'ahelm.github.io',
+        short_name: 'ahelm.github.io',
         start_url: '/',
         background_color: '#202124',
         theme_color: '#202124',
         display: 'browser',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/ahelm-icon.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-typescript',
@@ -37,8 +37,5 @@ module.exports = {
       },
     },
     'gatsby-transformer-remark',
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 };
