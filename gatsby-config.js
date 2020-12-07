@@ -24,7 +24,7 @@ module.exports = {
         background_color: '#202124',
         theme_color: '#202124',
         display: 'browser',
-        icon: 'src/images/ahelm-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/ahelm-icon.svg', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-typescript',
