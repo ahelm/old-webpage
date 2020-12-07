@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import {
   FaTwitter, FaLinkedin, FaGithub, FaRegEnvelope,
 } from 'react-icons/fa';
-import Photo from './photo';
+import PageLogo from './logo';
 
 const linkStyle: CSSProperties = {
   textDecoration: 'none',
@@ -35,7 +35,7 @@ const Header = () => (
         }}
       >
         <Link to="/">
-          <Photo />
+          <PageLogo />
         </Link>
       </div>
       <div
@@ -72,7 +72,7 @@ const Header = () => (
             <a href="https://www.linkedin.com/in/example/" aria-label="Linkedin">
               <FaLinkedin style={{ margin: '10' }} />
             </a>
-            <a href="mailto:hi@example.com" aria-label="Mail">
+            <a href="mailto:a.helm87@gmail.com" aria-label="Mail">
               <FaRegEnvelope style={{ margin: '10' }} />
             </a>
           </div>
