@@ -24,9 +24,12 @@ const Layout = ({ children }: Props) => (
           fontSize: '0.8rem',
         }}
       >
-        Note about site
+        Site created using
         {' '}
-        <a href="https://twitter.com/example">Twitter</a>
+        <a href="https://www.gatsbyjs.com/">Gatsby</a>
+        {' '}
+        <br/>
+        &copy; Anton Helm
       </footer>
     </div>
   </>
