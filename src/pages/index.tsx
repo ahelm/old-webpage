@@ -1,19 +1,26 @@
-import React from 'react';
-import Layout from '../components/layout';
-import SEO from '../components/seo';
+import React from "react";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
+    <div>
+      Hi, I'm{" "}
+      <span
+        style={{
+          backgroundColor: "rgb(82, 131, 216)",
+          padding: "0.1rem 0.5rem",
+          color: "white",
+        }}
+      >
+        Anton
+      </span>
+    </div>
     <p>
-      The concept of natural law had no place in Torah.
-      Yet Paul – as he struggled to define the law that he believed,
-      in the wake of the crucifixion and the resurrection,
-      to be written on the heart of all who acknowledged Christ as Lord –
-      did not hesitate to adapt the teachings of the Greeks.
-      The word he used for it – syneidesis – clearly signalled which philosophers
-      in particular he had in mind. Paul, at the heart of his gospel, was enshrining
-      the Stoic concept of conscience.
+      I am a Ph.D. graduate in plasma physics at Instituto Superior Técnico.
+      Welcome to my webpage, and from time to time, I will try to post some tech
+      content here on my blog. Make sure to check it out.
     </p>
   </Layout>
 );
