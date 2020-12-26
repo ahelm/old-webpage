@@ -64,14 +64,14 @@ const Header = () => (
               fontSize: "2em",
             }}
           >
-            <a href="https://twitter.com/example" aria-label="Twitter">
+            <a href="https://twitter.com/HelmAnton" aria-label="Twitter">
               <FaTwitter style={{ margin: "10" }} />
             </a>
-            <a href="https://github.com/example" aria-label="Github">
+            <a href="https://github.com/ahelm" aria-label="Github">
               <FaGithub style={{ margin: "10" }} />
             </a>
             <a
-              href="https://www.linkedin.com/in/example/"
+              href="https://www.linkedin.com/in/anton-helm/"
               aria-label="Linkedin"
             >
               <FaLinkedin style={{ margin: "10" }} />
