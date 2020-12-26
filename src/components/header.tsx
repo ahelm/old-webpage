@@ -44,26 +44,27 @@ const Header = () => (
         }}
       >
         <div>
-          <h1
+          <div
             style={{
+              fontSize: "1.2rem",
               marginBottom: "1rem",
               textAlign: "center",
             }}
           >
             <Link to="/" style={linkStyle} activeStyle={activeStyle}>
-              About
+              Home
             </Link>
-            <Link to="/latest" style={linkStyle} activeStyle={activeStyle}>
-              Latest
+            <Link to="/blog" style={linkStyle} activeStyle={activeStyle}>
+              Blog
             </Link>
             <Link to="/cv" style={linkStyle} activeStyle={activeStyle}>
               CV
             </Link>
-          </h1>
+          </div>
           <div
             style={{
               textAlign: "center",
-              fontSize: "2em",
+              fontSize: "1.6rem",
             }}
           >
             <a href="https://twitter.com/HelmAnton" aria-label="Twitter">
