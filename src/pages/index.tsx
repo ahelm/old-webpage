@@ -1,17 +1,18 @@
-import React from "react";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+import React from 'react';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
     <div>
-      Hi, I'm{" "}
+      Hi, I&apos;m
+      {' '}
       <span
         style={{
-          backgroundColor: "rgb(82, 131, 216)",
-          padding: "0.1rem 0.5rem",
-          color: "white",
+          backgroundColor: 'rgb(82, 131, 216)',
+          padding: '0.1rem 0.5rem',
+          color: 'white',
         }}
       >
         Anton

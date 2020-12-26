@@ -28,7 +28,7 @@ const Layout = ({ children }: Props) => (
         {' '}
         <a href="https://www.gatsbyjs.com/">Gatsby</a>
         {' '}
-        <br/>
+        <br />
         &copy; Anton Helm
       </footer>
     </div>

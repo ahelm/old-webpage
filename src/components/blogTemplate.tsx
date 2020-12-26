@@ -32,7 +32,7 @@ export default function Template({ data }: BlogProps) {
           </div>
           <div
             className="blog-post-content"
-          // eslint-disable-next-line react/no-danger
+            // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </div>

@@ -1,8 +1,6 @@
-import React from "react";
-import SVGLogo from "../assets/logo.svg";
+import React from 'react';
+import SVGLogo from '../assets/logo.svg';
 
-const PageLogo = () => {
-  return <SVGLogo />;
-};
+const PageLogo = () => <SVGLogo />;
 
 export default PageLogo;
