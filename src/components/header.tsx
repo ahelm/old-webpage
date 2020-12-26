@@ -27,6 +27,8 @@ const Header = () => (
       <div
         style={{
           flex: "1",
+          textAlign: "center",
+          verticalAlign: "middle",
         }}
       >
         <Link to="/">
