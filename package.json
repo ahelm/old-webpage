@@ -47,7 +47,8 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "build": "gatsby build",
     "deploy": "echo \"TODO!!\" && exit 1",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "lint": "eslint --fix ."
   },
   "repository": {
     "type": "git",
