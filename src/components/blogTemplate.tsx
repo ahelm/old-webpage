@@ -24,15 +24,13 @@ export default function Template({ data }: BlogProps) {
   return (
     <Layout>
       <SEO title={frontmatter.title} />
-      <div className="blog-post-container">
-        <div className="blog-post">
-          <div style={{ textAlign: 'center' }}>
+      <div>
+        <div>
+          <div>
             <h1>{frontmatter.title}</h1>
             <h4>{frontmatter.date}</h4>
           </div>
           <div
-            className="blog-post-content"
-            // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </div>
