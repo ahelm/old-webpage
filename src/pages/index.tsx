@@ -8,7 +8,7 @@ const IndexPage = () => (
     <div>
       Anton Helm
     </div>
-  </Layout >
+  </Layout>
 );
 
 export default IndexPage;

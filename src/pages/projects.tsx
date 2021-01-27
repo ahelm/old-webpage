@@ -8,7 +8,7 @@ const ProjectPage = () => (
     <div>
       Projects
     </div>
-  </Layout >
+  </Layout>
 );
 
 export default ProjectPage;

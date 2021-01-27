@@ -18,7 +18,7 @@ const Footer = () => (
       <FaLinkedin />
     </a>
     <a href="mailto:a.helm87@gmail.com" aria-label="Mail">
-      <FaRegEnvelope/>
+      <FaRegEnvelope />
     </a>
   </footer>
 );
