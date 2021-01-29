@@ -32,13 +32,13 @@ const DropDown = ({ className = '' }) => {
   );
 };
 
-const NavBar = ({ className = "" }) => (
+const NavBar = ({ className = '' }) => (
   <nav className={className}>
     {HeaderLinks.map((item) => <Link className="text-white text-lg px-6 py-2" to={item.to} key={item.id}>{item.text}</Link>)}
   </nav>
 );
 
-const Header = ({ className = "" }) => (
+const Header = ({ className = '' }) => (
   <header className={`p-4 flex flex-row justify-between items-center bg-gray-800 shadow-md ${className}`}>
     <Link to="/">
       <PageLogo />
