@@ -8,9 +8,9 @@ interface Props {
 
 const Layout = ({ children }: Props) => (
   <>
-    <div className="flex justify-around min-h-screen bg-gray-100">
+    <div className="flex min-h-screen justify-around bg-gray-100">
       <div className="flex-auto antialiased max-w-screen-lg shadow-xl bg-gray-50">
-        <div className="flex flex-col h-screen">
+        <div className="flex flex-col max-w-screen-lg">
           <Header />
           <main className="flex-grow">{children}</main>
           <Footer />
