@@ -3,8 +3,8 @@ import {
   FaGithub, FaLinkedin, FaRegEnvelope, FaTwitter,
 } from 'react-icons/fa';
 
-const Footer = () => (
-  <footer className="flex flex-col py-2 text-gray-400">
+const Footer = ({ className = '' }) => (
+  <footer className={`flex flex-col py-2 text-gray-400 ${className}`}>
     <div className="flex place-content-center text-sm text-center">
       <div>
         <div>Created with Gatsby and Tailwind CSS</div>
