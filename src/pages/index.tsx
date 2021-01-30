@@ -27,6 +27,7 @@ const IndexPage = () => {
           <div className="prose">
             <h1>
               Hello
+              {' '}
               <span role="img" aria-label="hand-hi">👋</span>
             </h1>
             <p>
