@@ -48,7 +48,7 @@ const IndexPage = () => {
               in a blink of an eye. I am currently getting into deep learning and
               exploring all the possible angles of using it. I also really like
               the math behind it as it is quite interesting to model and connects
-              to my previous work, using computers as `&quot;`big calculators.`&quot;`
+              to my previous work, using computers as &quot;big calculators.&quot;
 
             </p>
             {/* <p>
