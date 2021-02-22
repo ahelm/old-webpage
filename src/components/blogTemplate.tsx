@@ -30,9 +30,7 @@ export default function Template({ data }: BlogProps) {
             <h1>{frontmatter.title}</h1>
             <h4>{frontmatter.date}</h4>
           </div>
-          <div
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
+          <div>{html}</div>
         </div>
       </div>
     </Layout>

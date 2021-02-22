@@ -1,4 +1,4 @@
-import { graphql, Link, useStaticQuery } from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 import React from 'react';
 import Layout from '../components/layout';
@@ -32,24 +32,26 @@ const IndexPage = () => {
             </h1>
             <p>
 
-              My name is Anton, and I have a Ph.D. in physics. I have been using
-              large supercomputers to model the interaction between intense laser
-              pulses and plasmas in the past years. It led me to develop numerical
-              models to run on a large number of computers.
+              My name is Anton, and I have a Ph.D. in physics. I have been
+              using large supercomputers to model the interaction between
+              intense laser pulses and plasmas in the past years, which led me
+              to develop numerical models to run on many computers in parallel.
 
             </p>
             <p>
 
-              I can characterize my interest as everything tech. During the time in
-              academia, I acquired a deep knowledge of computer architectures,
-              including GPUs. I also adore Python as it allows me to quickly and
-              programmatically solve problems at any scale. I am currently getting
-              into deep learning and exploring all the possible angles of using it. I
-              also really like the math behind it as it is quite interesting to model
-              and connects to my previous work, using computers as big calculators.
+              I can characterize my interest as everything related to tech and
+              computers. As so, over the past, I acquired an in-depth knowledge
+              of computer architectures, including GPUs. I also adore Python as
+              it allows me to quickly and programmatically solve problems at any
+              scale. One example was to use Python to analyze terabytes of data
+              in a blink of an eye. I am currently getting into deep learning and
+              exploring all the possible angles of using it. I also really like
+              the math behind it as it is quite interesting to model and connects
+              to my previous work, using computers as `&quot;`big calculators.`&quot;`
 
             </p>
-            <p>
+            {/* <p>
 
               Make sure to check out my
               {' '}
@@ -61,7 +63,7 @@ const IndexPage = () => {
               {' '}
               to follow up on my progress.
 
-            </p>
+            </p> */}
           </div>
         </div>
         {/*

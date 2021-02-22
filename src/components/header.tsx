@@ -4,9 +4,9 @@ import PageLogo from './logo';
 
 const HeaderLinks = [
   { id: 1, to: '/', text: 'About' },
-  { id: 2, to: '/blog', text: 'Blog' },
-  { id: 3, to: '/projects', text: 'Projects' },
-  { id: 4, to: '/cv', text: 'Resume' },
+  // { id: 2, to: '/blog', text: 'Blog' },
+  // { id: 3, to: '/projects', text: 'Projects' },
+  // { id: 4, to: '/cv', text: 'Resume' },
 ];
 
 const DropdownLink = (link: { to: string, text: string }) => (
